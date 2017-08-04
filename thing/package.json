@@ -3,11 +3,9 @@
   "version": "0.0.1",
   "description": "zephir-loader example",
   "main": "index.js",
-  "dependencies": {
-    "zephir-loader": "^0.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "zephir-loader": "git+ssh://git@github.com/SavvySoftWorksLLC/zephir-loader.git"
+    "zephir-watcher-plugin": "git+https://github.com/SavvySoftWorksLLC/webpack-zephir-watcher-plugin.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

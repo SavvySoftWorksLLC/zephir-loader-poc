@@ -19,6 +19,8 @@
 
 namespace Thing;
 
+use Butt;
+
 /**
  * Phalcon\Text
  *
@@ -50,6 +52,8 @@ abstract class Text
    */
   public static function camelize(string! str, var delimiter = null) -> string
   {
+    var butt = \Thing\Butt::buttalize("hi");
+
     return str->camelize(delimiter);
   }
 
